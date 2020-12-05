@@ -1,0 +1,4 @@
+colorama
+shodan
+opencv-python
+prettytable
