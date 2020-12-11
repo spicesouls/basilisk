@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# Basilisk - Version 1.0.0
 
-You can use the [editor on GitHub](https://github.com/spicesouls/basilisk/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 🛠 Installation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+git clone https://github.com/spicesouls/basilisk
+cd basilisk && pip install -r requirements.txt
+chmod +x basilisk.py
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 📃 Usage
 
-### Jekyll Themes
+```sh
+./basilisk.py [ SHODAN API KEY ] -t [ THREAD COUNT ]
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/spicesouls/basilisk/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<pre>┌──────────────────────────────────────────────────┐
+│<font color="#00FF00">__________               .__.__  .__        __    </font>│
+│<font color="#00FF00">\______   \_____    _____|__|  | |__| _____|  | __</font>│
+│<font color="#00FF00"> |    |  _/\__  \  /  ___/  |  | |  |/  ___/  |/ /</font>│
+│<font color="#00FF00"> |    |   \ / __ \_\___ \|  |  |_|  |\___ \|    &lt; </font>│
+│<font color="#00FF00"> |______  /(____  /____  &gt;__|____/__/____  &gt;__|_ \</font>│
+│<font color="#00FF00">        \/      \/     \/                \/     \/</font>│
+├───────────────┬─────────────────┬────────────────┤
+│ <font color="#00FFD7">By SpiceSouls</font> │ <font color="#00FFD7">Beyond Root Sec</font> │ <font color="#00FFD7">Version: 1.0.0</font> │
+└───────────────┴─────────────────┴────────────────┘
 
-### Support or Contact
+[<span style="background-color:#00AFFF"><font color="#000000">!</font></span>] Final Results:
++----------------+----------------+---------+---------+
+|       IP       | Authentication | Country |   City  |
++----------------+----------------+---------+---------+
+| 103.242.236.2  |  admin:admin   |  India  | Chennai |
+| 179.155.126.29 |  admin:admin   |  Brazil | Uberaba |
++----------------+----------------+---------+---------+</pre>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 📌 To Do
+
+* 💹 Add Honeypot Detection 
+
+* ❎ Add 'Timeouts' to speed up the probing process
+
+* ❎ Add option to use Proxies
+
+* ❎ Add option to use Tor (?)
+
+My Blog: https://beyondrootsec.wordpress.com
+
+BTC Donations: 1CQvmpRCDasK7YKyjsQTZPUobRygqt86t7
+
+**🚧! THIS IS FOR STRICTLY EDUCATIONAL PURPOUSES, I AM NOT RESPONSIBLE FOR YOUR USE OF THIS !🚧**
