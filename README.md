@@ -52,7 +52,7 @@ chmod +x basilisk.py
 
 * ❎ Add option to use Tor (?)
 
-My Blog: https://beyondrootsec.wordpress.com
+My Blog: https://spicesouls.github.io/blog
 
 BTC Donations: 1CQvmpRCDasK7YKyjsQTZPUobRygqt86t7
 
